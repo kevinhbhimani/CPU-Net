@@ -1,35 +1,57 @@
 cff-version: 1.2.0
-title: "CPU-Net: Cyclic Positional U-Net for HPGe pulse translation"
-message: "If you use CPU-Net, please cite the associated paper below."
+message: "If you use this software, please cite it as below."
+title: "CPU-Net"
+type: software
+version: 1.0.0
+date-released: 2026-01-13
+license: MIT
+repository-code: "https://github.com/aobol/CPU-Net"
+url: "https://github.com/aobol/CPU-Net"
+
 authors:
-  - family-names: "Bhimani"
-    given-names: "Kevin"
-    email: "kevinhbhimani@gmail.com"
-  - family-names: "Gruszko"
-    given-names: "Julieta"
-  - family-names: "Clark"
-    given-names: "Morgan"
-  - family-names: "Wilkerson"
-    given-names: "John"
-  - family-names: "Li"
-    given-names: "Aobo"
-repository-code: "https://github.com/kevinhbhimani/CPU-Net"
-license: "MIT"
+  - family-names: Bhimani
+    given-names: Kevin
+  - family-names: Gruszko
+    given-names: Julieta
+  - family-names: Clark
+    given-names: Morgan
+  - family-names: Wilkerson
+    given-names: John
+  - family-names: Li
+    given-names: Aobo
+
 keywords:
-  - "CycleGAN"
-  - "Transfer Learning"
-  - "High-purity germanium (HPGe)"
-  - "Pulse Shape Simulation"
-  - "Domain adaptation"
-  - "Electronics response emulation"
-  - "Pulse-shape simulation"
-  - "Rare-event searche"
+  - HPGe
+  - pulse-shape simulation
+  - CycleGAN
+  - transfer learning
+  - U-Net
+
+# Link the Zenodo dataset/weights DOI as an identifier (optional but nice)
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.15311838"
+    description: "Zenodo dataset and pretrained weights"
+
+# Credit redirection: when people click “Cite this repository”, point them to the paper
 preferred-citation:
   type: article
   title: "CycleGAN-driven transfer learning for electronics response emulation in high-purity germanium detectors"
-  doi: "10.1088/2632-2153/ae3052"
+  authors:
+    - family-names: Bhimani
+      given-names: Kevin
+    - family-names: Gruszko
+      given-names: Julieta
+    - family-names: Clark
+      given-names: Morgan
+    - family-names: Wilkerson
+      given-names: John
+    - family-names: Li
+      given-names: Aobo
   journal: "Machine Learning: Science and Technology"
-  year: 2026
   volume: 7
-  number: 1
+  issue: 1
+  year: 2026
+  month: 1
   start: "015009"
+  doi: "10.1088/2632-2153/ae3052"

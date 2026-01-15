@@ -3,9 +3,10 @@
 **CPU-Net (Cyclic Positional U-Net)** is a transfer-learning framework that learns an ad-hoc translation between **simulated** and **measured** HPGe detector pulses. It is designed to emulate readout electronics effects in pulse-shape simulations using an unpaired, CycleGAN-style training strategy.
 
 **Paper:** *CycleGAN-driven transfer learning for electronics response emulation in high-purity germanium detectors* (Machine Learning: Science and Technology, 2026).  
-DOI: **10.1088/2632-2153/ae3052**
+DOI: [10.1088/2632-2153/ae3052](https://doi.org/10.1088/2632-2153/ae3052) • IOP article page: [IOP Science](https://iopscience.iop.org/article/10.1088/2632-2153/ae3052)
 
-**Data & pretrained weights:** Zenodo DOI **10.5281/zenodo.15311838**
+**Data & pretrained weights (Zenodo):**  
+DOI: [10.5281/zenodo.15311838](https://doi.org/10.5281/zenodo.15311838) • Record: [zenodo.org/records/15311838](https://zenodo.org/records/15311838)
 
 ---
 
@@ -47,8 +48,7 @@ pytest -q
 
 ## Data & model weights (Zenodo)
 
-Data and pretrained weights are packaged on Zenodo:  
-**10.5281/zenodo.15311838**
+Data and pretrained weights are packaged on Zenodo: [10.5281/zenodo.15311838](https://zenodo.org/records/15311838).
 
 ### Contents
 
@@ -67,10 +67,10 @@ Each pickle entry:
 }
 ```
 
-### Data provenance
-
-**Detector pulses:** inverted-coax HPGe detector (serial **V06643A**), **228Th** flood calibration at Oak Ridge National Laboratory; digitized by **FlashCam**; converted to HDF5 using **pygama**.  
-**Simulated pulses:** Geant4 energy deposits for the same setup; deposits fed to **siggen** to generate charge-collection pulses.
+#### Data
+ **Detector pulses** were recorded with an inverted‑coax HPGe detector (serial V06643A) during a –228Th–flood calibration at Oak Ridge National Laboratory. Signals were digitised by FlashCam module; pygama handled conversion to HDF5.
+ 
+ **Simulated pulses** originate from a Geant4 model of the same setup. Energy deposits were fed to siggen to generate raw charge‑collection pulses.
 
 ---
 
