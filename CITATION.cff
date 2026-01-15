@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+title: "CPU-Net: Cyclic Positional U-Net for HPGe pulse translation"
+message: "If you use CPU-Net, please cite the associated paper below."
+authors:
+  - family-names: "Bhimani"
+    given-names: "Kevin"
+    email: "kevinhbhimani@gmail.com"
+  - family-names: "Gruszko"
+    given-names: "Julieta"
+  - family-names: "Clark"
+    given-names: "Morgan"
+  - family-names: "Wilkerson"
+    given-names: "John"
+  - family-names: "Li"
+    given-names: "Aobo"
+repository-code: "https://github.com/kevinhbhimani/CPU-Net"
+license: "MIT"
+keywords:
+  - "CycleGAN"
+  - "Transfer Learning"
+  - "High-purity germanium (HPGe)"
+  - "Pulse Shape Simulation"
+  - "Domain adaptation"
+  - "Electronics response emulation"
+  - "Pulse-shape simulation"
+  - "Rare-event searche"
+preferred-citation:
+  type: article
+  title: "CycleGAN-driven transfer learning for electronics response emulation in high-purity germanium detectors"
+  doi: "10.1088/2632-2153/ae3052"
+  journal: "Machine Learning: Science and Technology"
+  year: 2026
+  volume: 7
+  number: 1
+  start: "015009"
